@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="ImageNet Classifier", layout="centered")  # ✅ First Streamlit command
+st.set_page_config(page_title="AI Uniten NM Training", layout="centered")  # ✅ First Streamlit command
 
 import numpy as np
 import tensorflow as tf
@@ -14,7 +14,7 @@ def load_model():
 
 model = load_model()
 
-st.title("📷 Image Classifier using MobileNetV2")
+st.title("📷 Image Classifier using MobileNetV2 by Uniten & NM")
 
 uploaded_file = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
 if uploaded_file:
