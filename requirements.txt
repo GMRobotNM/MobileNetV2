@@ -3,4 +3,4 @@ torch
 torchvision
 opencv-python-headless
 Pillow
-tensorflow-cpu
+tensorflow-cpu==2.15.0
