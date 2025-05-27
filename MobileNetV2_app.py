@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(page_title="ImageNet Classifier", layout="centered")  # ✅ First Streamlit command
 
 import numpy as np
-import tensorflow as tf
+#import tensorflow as tf
 from PIL import Image
 from tensorflow.keras.applications import MobileNetV2
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input, decode_predictions
